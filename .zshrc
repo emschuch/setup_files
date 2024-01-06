@@ -7,14 +7,11 @@ autoload -Uz add-zsh-hook
 autoload -Uz vcs_info
 
 add-zsh-hook precmd vcs_info
-
-# precmd_vcs_info() {vcs_info}
-# precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
 
 zstyle ':vcs_info:*' enable git
-zstyle ':vcs_info:*' formats '%F{cyan}(%b)'
-zstyle ':vcs_info:*' actionformats " %F{cyan}(%b) %a"
+zstyle ':vcs_info:*' formats '%F{blue}(%b)'
+zstyle ':vcs_info:*' actionformats " %F{blue}(%b) %a"
 zstyle ':vcs_info:*' stagedstr "%F{green}"
 zstyle ':vcs_info:*' unstagedstr "%F{red}"
 zstyle ':vcs_info:*' check-for-changes true
