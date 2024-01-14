@@ -43,8 +43,8 @@ alias web='python -m SimpleHTTPServer'
 alias cl='clear'
 alias gs='git status'
 alias gd='git diff'
-alias jnb='jupyter notebook'
-alias jlb='jupyter lab'
+alias jup='jupyter notebook'
+alias jupl='jupyter lab'
 
 # set up shell environment for pyenv
 export PYENV_ROOT="$HOME/.pyenv"
