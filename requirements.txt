@@ -1,6 +1,6 @@
 # add packages to install here
 # pinning package versions will make sure your code is reproducible in the future, as long as you're using virtual environments
 
-jupyterlab==4.0.10
+jupyterlab==4.0.11
 pandas==2.1.4
 numpy==1.26.3
