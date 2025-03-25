@@ -53,3 +53,4 @@ alias cl='clear'
 
 # Easily get IPython Notebook started up.
 alias ipnb='jupyter notebook'
+

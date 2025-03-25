@@ -45,6 +45,8 @@ alias gs='git status'
 alias gd='git diff'
 alias jup='jupyter notebook'
 alias jupl='jupyter lab'
+# add alias for opening in sublime text
+alias subl='open -a "Sublime Text"'
 
 # set up shell environment for pyenv
 export PYENV_ROOT="$HOME/.pyenv"
